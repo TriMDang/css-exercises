@@ -47,7 +47,7 @@ ul {
   margin-left: auto;
 }
 
-.header{
+.header, .footer{
   display: flex;
   padding: 0px 20px;
 }
@@ -59,4 +59,8 @@ ul {
   margin-top: auto;
   margin-bottom: auto;
   gap: 20px;
+}
+
+.footer{
+  background-color: lightgrey;
 }
